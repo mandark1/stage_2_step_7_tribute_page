@@ -1,1 +1,18 @@
 /* Copy and paste your CSS from CodePen into here */
+body {
+    background-color: #3266a8;
+}
+
+h1 {
+    color: #eded24;
+    font-family: Verdana;
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    color: #eded24;
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+}
