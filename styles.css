@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-  color: hotpink;
+  color: aliceblue;
 }
 
 .navigation-bar {
@@ -32,7 +32,7 @@ a:hover {
     justify-content: space-evenly;
 }
 
-li {
+ul.navigation-bar > li {
     color: #eded24;
     list-style-type: circle;
     display: inline;
@@ -43,13 +43,98 @@ li {
     justify-content: center;
 }
 
-.general-text {
-    color: #eded24;
-    font-family: Verdana;
-    font-size: 15px;
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.midsommar-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.ikea-container {
+    display: flex;
+    justify-content: space-evenly;  
+    padding-top: 20px;
+}
+
+.abba-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.midsommar-container-image {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.image-flag {
+    width: 400px;
+    height: 300px;
+    padding-top: 25px;
+}
+
+.image-midsommar {
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.image-midsommar-left {
+    height: auto;
+}
+
+.image-midsommar-right {
+    height: 400px;
+}
+
+.image-ikea {
+    width: 400px;
+    height: 300px;
+}
+
+.image-abba {
+    width: 490px;
+    height: 350px;
 }
 
 .reverse-b {
     display: inline-block; 
     transform: scale(-1, 1);
-   }
+}
+
+.general-text {
+    color: #eded24;
+    font-family: Verdana;
+    font-size: 15px;
+    margin: 0;
+}
+
+.sub-text {
+    font-size: 12px;
+}
+
+.text-box {
+    width: 400px;
+    height: 650px;
+    text-align: justify;
+}
+
+.text-box-midsommar-right {
+    width: 380px;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.text-box-midsommar-left {
+    width: 380px;
+}
+
+
